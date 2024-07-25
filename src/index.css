@@ -27,3 +27,24 @@ body {
   overscroll-behavior-y: none;
   background-color: #fff;
 }
+
+
+.layout {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  flex-grow: 1;
+  height: 100vh;
+}
